@@ -23,7 +23,7 @@ body {
 .card {
   width: 90%;
   max-width: 470px;
-  background: linear-gradient(135deg, #00feba, #6839ce);
+  background: #6839ce;
   border-radius: 20px;
   padding: 40px 35px;
   text-align: center;
@@ -50,48 +50,54 @@ body {
   font-size: 18px;
 }
 
-.search button{
-    border: 0;
-    outline: 0;
-    background: #ebfffc;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .search button img {
-    width: 16px;
+  width: 16px;
 }
-.weather__condition img{
+.error {
+  text-align: left;
+  display: none;
+}
+.main {
+  display: none;
+}
+.weather__condition img {
   width: 100px;
   margin-top: 30px;
 }
 
-.weather{
+.weather {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
 }
 
-.wind{
+.wind {
   display: flex;
   text-align: left;
   align-items: center;
 }
-.img img{
+.img img {
   width: 40px;
 }
-.wind__details{
-  margin-left:10px ;
+.wind__details {
+  margin-left: 10px;
 }
 
-.Humidity{
+.Humidity {
   display: flex;
   text-align: left;
   align-items: center;
 }
 
-.Humidity__details{
-  margin-left:10px ;
+.Humidity__details {
+  margin-left: 10px;
 }
