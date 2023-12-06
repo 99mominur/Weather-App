@@ -2,8 +2,9 @@
 
 ## Trying to understand how API works with JavaScript
 
-##Project Feature
-###For a valid city name it will show 
+## Project Feature
+
+### For a valid city name it will show 
 - Temperature
 - Wind Speed
 - Humidity
